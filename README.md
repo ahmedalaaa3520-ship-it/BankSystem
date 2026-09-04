@@ -51,6 +51,15 @@ user permissions using file handling.
 - String Manipulation
 - Bitwise Operators
 
+
+  ## How to Run
+
+1. Clone the repository.
+2. Open `BankSystem.sln` using Visual Studio.
+3. Build the project.
+4. Run the application.
+5. Login using a valid user account.
+
 ## About
 
 This project was built as part of the Problem Solving Level 3 course
