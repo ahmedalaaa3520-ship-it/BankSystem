@@ -928,13 +928,9 @@ void PrintClientRecordBalanceLine(sClient& Client)
 
 void ShowAccessDeniedMessage()
 {
-	system("cls");
-	system("color 4f");
 	cout << "\n------------------------------------\n";
 	cout << "Access Denied, \nYou dont have permission to do this, \nPlease conact your admin.";
 	cout << "\n------------------------------------\n";
-	system("pause");
-	system("color 07");
 }
 
 void ShowTotalBalances()
@@ -1211,7 +1207,8 @@ void PerformMainMenueOption(enMainMenueOption MainMenueOption)
 	case enMainMenueOption::eShowTransactionMenue: 
 
 		system("cls");
-		ShowTransactionMenue();  
+		ShowTransactionMenue();
+		GoBackToMainMenue();
 		break;
 
 	case enMainMenueOption::eMangeUser:
